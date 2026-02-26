@@ -7,7 +7,8 @@ import java.util.List;
 
 @Service
 public class DescontoService {
-    public int calculaDescontoTotal(List<Usuario> usuarios) {
+
+    public int calcularTotal(List<Usuario> usuarios) {
         return usuarios.stream()
                 .mapToInt(Usuario::getDesconto)
                 .sum();

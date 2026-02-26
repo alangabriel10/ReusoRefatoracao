@@ -6,5 +6,4 @@ public record UsuarioDTO(
         String email,
         String tipo,
         int idade
-) {
-}
+) {}

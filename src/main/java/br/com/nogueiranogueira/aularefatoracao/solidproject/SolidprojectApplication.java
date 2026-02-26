@@ -9,5 +9,4 @@ public class SolidprojectApplication {
     public static void main(String[] args) {
         SpringApplication.run(SolidprojectApplication.class, args);
     }
-
 }
